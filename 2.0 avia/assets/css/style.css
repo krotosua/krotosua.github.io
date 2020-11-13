@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+main{
+    width: 600px;
+    height: 1050px;
+    background: linear-gradient(125deg, rgb(54,81,217), rgb(207,56,148));
+    padding-left: 30px;
+    padding-right: 15px;
+}
+h1{
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #ffffff; 
+    text-align: left;
+   
+}
+
+p{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Consolas'
+
+}
+
+
+button{
+    color: #ffffff;
+    border-radius: 5% ;
+    height:30px;
+    font-size: 110%;
+    font-weight: 600;
+    border:0;
+}
+
+.left{
+    background: #9C6DEA
+}
+
+.rights{
+    background: #FB632B;
+    }
+
