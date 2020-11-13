@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    font-family:  Courier, monospace;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70vw;
+    margin: 0px auto;
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 960px;
+}
+
+main{
+    flex-grow: 1;
+}
+ul{
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+ul>li{
+    margin: 0 8px;
+}
+
+ul>li:first-child{
+    margin-right: auto;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold ;
+}
+
+.component{
+    padding:8px;
+    box-shadow: 1px 1px 10px grey;
+}
+.products{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  
+    
+    
+}
+.products>.product{
+    flex-basis: 30.33%;
+    padding: 15px;
+    
+}
+
+
+
+
+/*cup*/
+div.cup{
+    max-width: 100%;
+    
+    margin: 10px auto;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Lucida Sans', sans-serif;
+}
+img{
+    max-width:100%;
+}
+
+
+.cena{
+    font-size: 20px;
+}
+
+.skidka{
+    color:green;
+
+}
+
+.price{
+    color:gray;
+    text-decoration: line-through;
+    
+}
+
+.procent{
+    color:red;
+}
+
+.buy{
+    height: 25px;
+}
+
+
+button{
+    margin-right: 5px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+.card{
+    color:white;
+    background-color: grey;
+}
+
+
+.rating-area {
+	overflow: hidden;
+	width: 130px;
+	margin: 0;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 25px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 25px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+
+/*glass*/
+
+
+div.glass{
+    max-width: 100%;
+    box-shadow: 1px 1px 10px grey;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+img{
+	max-width:100%;
+	
+}
+.data{
+    background-color: rgb(208, 205, 205);
+	height: 30px;
+	margin: -5px 0;
+    
+}
+.text{
+    color:grey;
+    text-align: justify;
+    padding: 10px;
+}
+.Photo{
+	background-color: black;
+	color:grey;
+	display:flex;
+	justify-content: space-between;
+	height: 20px;
+}
+

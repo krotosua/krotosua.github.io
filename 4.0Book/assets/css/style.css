@@ -1,0 +1,78 @@
+body{
+    margin: 0px auto;
+    width: 40vw;
+    max-width: 960px;
+    min-width: 360px;
+    
+}
+ 
+main{
+    text-align: center;
+    border-left: 3vw solid #243213;
+    border-right: 3vw solid #231342;
+    height: 100vw;
+    background-image: url(../img/forest.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-shadow: 2px 3px 1px black;
+    font-size:20px
+}
+div{
+    margin-top: 25px;
+    line-height: 0.9em;
+}
+
+h1{
+    margin: 0 ;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:50px;
+    color:#ec1f30
+}
+
+
+.Cairo{
+    font-family: 'Cairo', sans-serif;
+    font-size:40px;
+    
+}
+
+.Carter_One{
+    font-family: 'Carter One', cursive;
+    font-size:25px
+}
+.Caveat{
+    font-family: 'Caveat', cursive;
+    margin: 70px;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    transform: rotate(-15deg);
+    text-shadow: 0px 0px 0px;
+   
+}
+.Cookie{
+    font-family: 'Cookie', cursive;
+    font-size:50px
+}
+
+.DM_Mono{
+    font-family: 'DM Mono', monospace;
+    text-align: right;
+   
+}
+
+.Mali{
+    font-family: 'Mali', cursive;
+    text-shadow: 2px 2px 2px #df3f0e;
+    color: #df3f0e; 
+    font-size: 30px;
+    
+}
+.Oswald{
+    font-family: 'Oswald', sans-serif;
+    
+}
+span{
+    color: red;
+}

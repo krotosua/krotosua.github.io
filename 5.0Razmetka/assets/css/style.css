@@ -1,0 +1,58 @@
+h1{
+    color:green;
+}
+div>span:first-child{
+    color: red;
+}
+div>span+span{
+    background-color: yellow;
+}
+.special{
+    color:orange;
+}
+div>span:last-child{
+    color:green;
+}
+a[href^="http://google.com"]{
+    color:green;
+}
+a[title="Поисковик Google"]{
+    color:red;
+}
+b{
+    color:fuchsia
+}
+p>span:first-of-type{
+    color: blue;
+}
+p>span+span{
+    color:green
+}
+p>span:last-child{
+    color:black;
+}
+ul>li:nth-child(odd){
+    color:red;
+}
+ul>li:nth-child(even){
+background: yellow;
+}
+ul>li:last-child{
+    color:fuchsia
+}
+
+ol>li:nth-child(odd){
+    color: blue;
+}
+ol>li:nth-child(even){
+    color: green;
+}
+ol>li:nth-child(4){
+    background-color: grey;
+}
+ol>li:last-child{
+    color:orange;
+}
+div+div{
+    color:pink;
+}
