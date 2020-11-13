@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+   
+}
+body{
+    max-width: 960px;
+    min-width: 360px;
+    margin: 0px auto;
+}
+
+
+.note_Item{
+    margin:0px;
+    display:flex;
+    height: 200px;
+    border: 2px solid #bbb;
+    align-items: stretch;
+    justify-content: center; 
+} 
+.note_Item:hover img{
+    max-width: 160px;
+}
+
+.photo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    max-width: 140px; 
+    transition: 0.3s; 
+    background: white;  
+}
+
+.info{
+    width: 60%;
+    font-size:15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+h3{
+    margin: 0px 0;
+}
+
+.price{
+    width: 20%;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.cena{
+    font-size: 20px;
+    color:orange;
+   
+}
+
+
+
+button{
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    color:white;
+    border:0px;
+}
+button.skrito{
+    background-color: green;
+}
+
+.skrito{
+    opacity: 0;
+    transition: 0.3s
+}
+
+.note_Item:hover .skrito{
+    opacity: 1;
+}
+
+i.fa-heart{
+    color: red;
+}
