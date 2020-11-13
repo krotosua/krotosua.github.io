@@ -1,0 +1,28 @@
+.dil{
+    margin: 20vh 30vh;
+    height: 50vh;
+}
+
+.avatar{
+    width: 30%;
+}
+.info{
+    
+    width: 60%;
+}
+.box{
+ width: 33.33%;
+ height: 100%;
+
+}
+
+.top{
+    height: 50%;
+}
+.bottom{
+    height: 50%; 
+    
+}
+.card{
+    width:100%;
+}
