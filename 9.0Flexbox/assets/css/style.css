@@ -1,6 +1,6 @@
 .dil{
-    margin: 20vh 30vh;
-    height: 50vh;
+    margin: 20vh 40vh;
+    height: 60vh;
 }
 
 .avatar{
@@ -13,7 +13,6 @@
 .box{
  width: 33.33%;
  height: 100%;
-
 }
 
 .top{
@@ -23,6 +22,20 @@
     height: 50%; 
     
 }
-.card{
-    width:100%;
+
+
+.foto{
+    width: 100px;
+    height: 100px;
+    
+    margin: auto;
+    border-radius: 50px;
+    
+    background: url(../img/photo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+    width: 50%;
+    margin-left: 25%;
 }
