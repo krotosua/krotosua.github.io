@@ -1,6 +1,21 @@
-.forms{
-    margin: 100px 30vh;
+
+
+.pps{
+    margin: 20%;
+    border: 2px solid grey;
+    padding: 60px;
 
 
 
+}
+
+small+small{
+    display: none;
+}
+
+input:valid+small{
+    display: none;
+}
+input:valid+small+small{
+    display: inline;
 }
