@@ -18,16 +18,19 @@ main{
    
 }
 .first{
+    padding: 10px;
     grid-area: first;
     background-image: url(../img/first.jpg);
    background-position: bottom right;
 }
 .second{
+    padding: 10px;
     grid-area: second;
     background-image: url(../img/second.jpg);
     background-position: right ;
 }
 .next{
+    padding: 10px;
     grid-area: next;
     background-image: url(../img/next.jpg);
     background-position: bottom;

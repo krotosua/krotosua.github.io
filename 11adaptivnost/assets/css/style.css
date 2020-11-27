@@ -1,0 +1,87 @@
+
+
+@media( min-widt: 1200px){ 
+    body{
+        margin: 20px 15vh;
+        background-color: rgb(231, 229, 229);
+    }
+
+    main{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 6fr 1fr ;
+        grid-gap: 15px;
+        grid-template-areas:    "big big big"
+                                "first second next";
+    }
+
+    .big{
+        grid-area: big;
+    
+    }
+    .first{
+        grid-area: first;
+        background-image: url(../img/first.jpg);
+    background-position: bottom right;
+    }
+    .second{
+        grid-area: second;
+        background-image: url(../img/second.jpg);
+        background-position: right ;
+    }
+    .next{
+        grid-area: next;
+        background-image: url(../img/next.jpg);
+        background-position: bottom;
+    }
+    img{
+        width: 100%;
+    }
+    h2{
+        
+        margin-top:30px;
+    text-shadow: 2px 3px 3px black;
+    }
+    .in{
+        text-shadow: 5px 4px 6px black;
+    }
+    .card{
+        text-align: center;
+        
+    }
+
+    div.catalog{
+        margin: 40px 10px;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-areas:    "o t th f"
+                                "fi s seven eight";
+    }
+    .call{
+        text-align: center;
+        margin: 50px 50vh;
+        border-right: 2px solid grey;
+        border-left:  2px solid grey;
+    }
+    .contacts{
+        border-top:2px solid grey;
+        border-bottom: 2px solid grey;
+    }
+    footer{
+    
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-areas:    "a-n b-n c-n d-n"
+                                "a-f b-f c-f d-f"
+                                "a-s b-s b-s d-s"
+                                "a-t b-t c-t d-t"
+                                "a-fo . c-fo d-fo"
+                                ;
+
+    }
+}
