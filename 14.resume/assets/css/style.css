@@ -14,7 +14,7 @@ img{
     
 }
 .gridbox{
-    height: 60vh;
+    height: 60%;
     margin-top: -320px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
