@@ -19,25 +19,27 @@ main{
 }
 
 .big{
+    background-image: url(../img/big.jpg);
+    background-position: center;
     grid-area: big;
    width: 100%; 
 
     
 }
 .first{
-    height: 200px;
+    
     grid-area: first;
     background-image: url(../img/first.jpg);
 background-position: bottom right;
 }
 .second{
-    height: 200px;
+    
     grid-area: second;
     background-image: url(../img/second.jpg);
     background-position: right ;
 }
 .next{
-    height: 200px;
+   
     grid-area: next;
     background-image: url(../img/next.jpg);
     background-position: bottom;
@@ -59,11 +61,9 @@ text-shadow: 2px 3px 3px black;
     text-align: center;
     
 }
-
 div.catalog{
-    margin: 40px 10px;
-   ;
-}
+    margin: 40px 0px;}
+
 .call{
     text-align: center;
     margin: 30px 5vw;
@@ -111,6 +111,7 @@ footer{
 
     .big{
         grid-area: big;
+        background-image: url(../img/big.jpg);
     
     }
     .first{
@@ -133,11 +134,15 @@ footer{
     }
     img{
         width: 100%;
-        height: 450px;
+
         
     }
+
+    div.catalog{
+        margin: 40px 0px;}
+
+
     h2{
-        
         margin-top:30px;
     text-shadow: 2px 3px 3px black;
     }
@@ -149,13 +154,10 @@ footer{
         
     }
 
-    div.catalog{
-        margin: 40px 10px;
-        
-    }
+    
     .call{
         text-align: center;
-        margin: 50px 50vh;
+        margin: 50px 20vw;
         border-right: 2px solid grey;
         border-left:  2px solid grey;
     }
