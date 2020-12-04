@@ -19,27 +19,25 @@ main{
 }
 
 .big{
-    background-image: url(../img/big.jpg);
-    background-position: center;
     grid-area: big;
    width: 100%; 
 
     
 }
 .first{
-    
+    height: 200px;
     grid-area: first;
     background-image: url(../img/first.jpg);
 background-position: bottom right;
 }
 .second{
-    
+    height: 200px;
     grid-area: second;
     background-image: url(../img/second.jpg);
     background-position: right ;
 }
 .next{
-   
+    height: 200px;
     grid-area: next;
     background-image: url(../img/next.jpg);
     background-position: bottom;
@@ -64,14 +62,7 @@ text-shadow: 2px 3px 3px black;
 
 div.catalog{
     margin: 40px 10px;
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr  1fr 1fr;
-    grid-template-areas:    "o t "
-                            "th f"
-                            "fi s"
-                            "seven eight";
+   ;
 }
 .call{
     text-align: center;
@@ -120,7 +111,6 @@ footer{
 
     .big{
         grid-area: big;
-        background-image: url(../img/big.jpg);
     
     }
     .first{
@@ -143,10 +133,11 @@ footer{
     }
     img{
         width: 100%;
-
+        height: 450px;
         
     }
     h2{
+        
         margin-top:30px;
     text-shadow: 2px 3px 3px black;
     }
@@ -159,18 +150,12 @@ footer{
     }
 
     div.catalog{
+        margin: 40px 10px;
         
-        display: grid;
-        grid-gap: 15px;
-        grid-template-columns: 1fr 1fr 1fr ;
-        grid-template-rows: 1fr 1fr 1fr ;
-        grid-template-areas:    "o t th "
-                                "f fi s "
-                                "seven eight .";
     }
     .call{
         text-align: center;
-        margin: 50px 20vw;
+        margin: 50px 50vh;
         border-right: 2px solid grey;
         border-left:  2px solid grey;
     }
@@ -191,16 +176,5 @@ footer{
                                 "a-fo . c-fo d-fo"
                                 ;
 
-    }
-}
-@media(min-width:1200px){
-    div.catalog{
-        margin: 40px 10px;
-        display: grid;
-        grid-gap: 15px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
-        grid-template-areas:    "o t th f"
-                                "fi s seven eight";
     }
 }
