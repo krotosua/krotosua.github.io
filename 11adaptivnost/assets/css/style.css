@@ -112,7 +112,7 @@ footer{
         height: 700px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 500px 300px ;
+        grid-template-rows: 500px 1fr ;
         grid-gap: 15px;
         grid-template-areas:    "big big big"
                                 "first second next";
@@ -124,28 +124,24 @@ footer{
     
     }
     .first{
-        height: 200px;
+        
         grid-area: first;
         background-image: url(../img/first.jpg);
     background-position: bottom right;
     }
     .second{
-        height: 200px;
+    
         grid-area: second;
         background-image: url(../img/second.jpg);
         background-position: right ;
     }
     .next{
-        height: 200px;
+        
         grid-area: next;
         background-image: url(../img/next.jpg);
         background-position: bottom;
     }
-    img{
-        width: 100%;
-
-        
-    }
+  
     h2{
         margin-top:30px;
     text-shadow: 2px 3px 3px black;
@@ -159,7 +155,7 @@ footer{
     }
 
     div.catalog{
-        
+        margin-top:100px;
         display: grid;
         grid-gap: 15px;
         grid-template-columns: 1fr 1fr 1fr ;
@@ -193,7 +189,7 @@ footer{
 
     }
 }
-@media(min-width:1200px){
+@media(min-width:760px){
     div.catalog{
         margin: 40px 10px;
         display: grid;
