@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+
+    <main>
+       
+            <h1>Индекс массы тела</h2>
+            <div class="gridbox">
+                <h3 style="grid-area:heigth" class="heigth">
+                    Ваш рост (м):
+                </h3>
+                <div oninput='calc()' style="grid-area:vheigth">
+                    
+                    <input oninput='calc()' type="number" class="form-control" id="heightInput" 	min="" max="300" value="0">
+                </div>
+
+                <h3 style="grid-area:weight" class="weight">
+                    Ваш вес (кг):
+                </h3>
+                <div oninput='calc()' style="grid-area:vweight" class=' '>
+                        <input oninput='calc()' type="number" class="form-control" id="weightInput" 	min="1" max="600" value="0">
+                </div>
+
+                 <button oninput='calc()'style="grid-area:btn" class="btn btn-primary w-100">Рассчитать</button>
+
+
+            </div>                   
+            <h3 class='my-4'>Ваш индекс: <output id="resultPlace">-</output> .</h3>
+            
+            <h4 class='my-4'>Он означает: <output id="resPlace">-</output> .</h4>
+
+
+    </main>
+</body>
+</html>

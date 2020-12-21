@@ -1,0 +1,14 @@
+main{
+width: 1000px;    
+margin: 20vh auto;
+}
+.gridbox{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 200px 400px ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    grid-template-areas:    "heigth vheigth "
+                            "weight vweight "
+                            "btn btn";
+}
